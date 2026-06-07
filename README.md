@@ -1,133 +1,39 @@
-# Vaultix
+## Dashboard
 
-**Vaultix — Offline Secure Sharing & Encryption Suite**
+![Dashboard](screenshots/screenshotsdashboard.png)
 
-© 2026 Bashar Alsabal. All rights reserved.
+## Encrypt File
 
----
+![Encrypt File](screenshots/screenshotsencrypt_file.png)
 
-## Overview
+## Decrypt File
 
-Vaultix is a professional offline desktop cybersecurity application built with Python and PySide6.
+![Decrypt File](screenshots/screenshotsdecrypt_file.png)
 
-The application helps users encrypt, protect, hide, sign, verify, and securely share sensitive information before sending it through the internet.
+## Generate Keys
 
-Vaultix performs all cryptographic operations locally and does not require an internet connection.
+![Generate Keys](screenshots/screenshotsgenerate_keys.png)
 
----
+## Sign File
 
-## Features
+![Sign File](screenshots/screenshotssign_file.png)
 
-### Encryption
+## Verify Signature
 
-- AES-256-GCM File Encryption
-- AES-256-GCM Folder Encryption
-- Password-Based Protection
-- Large File Support
+![Verify Signature](screenshots/screenshotsverify_signature.png)
 
-### Key Management
+## Hide Data
 
-- RSA-4096 Key Generation
-- Public / Private Key Sharing
-- Hybrid Encryption (RSA + AES)
+![Hide Data](screenshots/screenshotshide_data.png)
 
-### Integrity & Verification
+## History
 
-- SHA-256 Integrity Verification
-- Digital Signatures
-- Signature Verification
+![History](screenshots/screenshotshistory.png)
 
-### Steganography
+## Secure Delete
 
-- Hide Files Inside PNG Images
-- Extract Hidden Data From PNG Images
+![Secure Delete](screenshots/screenshotssecure_delete.png)
 
-### Secure Deletion
+## About
 
-- Multi-Pass File Shredding
-- Secure Permanent Deletion
-
-### Audit & Tracking
-
-- SQLite Audit Logs
-- Dashboard Statistics
-- Operation History
-
----
-
-## Technology Stack
-
-- Python
-- PySide6 (Qt)
-- SQLite
-- Cryptography
-- Pillow
-- PyInstaller
-
----
-
-## Screenshots
-
-### Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-### Encrypt File
-
-![Encrypt File](screenshots/encrypt_file.png)
-
-### Generate Keys
-
-![Generate Keys](screenshots/generate_keys.png)
-
-### Sign File
-
-![Sign File](screenshots/sign_file.png)
-
-### Hide Data
-
-![Hide Data](screenshots/hide_data.png)
-
-### History
-
-![History](screenshots/history.png)
-
----
-
-## Security Features
-
-- AES-256-GCM Encryption
-- RSA-4096 Public Key Cryptography
-- SHA-256 Integrity Verification
-- Digital Signatures
-- Hybrid Secure Sharing
-- Offline Operation
-- Secure File Shredding
-
----
-
-## Project Structure
-
-```text
-Vaultix/
-├── app/
-├── screenshots/
-├── README.md
-├── LICENSE
-├── requirements.txt
-└── .gitignore
-```
-
----
-
-## Author
-
-**Bashar Alsabal**
-
-Cybersecurity & Information Security Graduate
-
----
-
-## License
-
-This project is licensed under the MIT License.
+![About](screenshots/screenshotsabout.png)
